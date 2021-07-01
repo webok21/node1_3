@@ -1,3 +1,3 @@
 const calcFunction = require('./function')
 
-console.log(calcFunction(5, 3, "*"))
+console.log(calcFunction(5, 3, "&"))
