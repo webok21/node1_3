@@ -3,18 +3,30 @@ function calculate(num1, num2, operator) {
     //     return "Invalid number"
     // }
 
-    switch (operator) {
-        case "+":
-            return num1 + num2;
-        case "-":
-            return num1 - num2;
-        case "/":
-            return num1 / num2;
-        case "*":
-            return num1 * num2;
-        default:
-            return "Invalid operator"
+    if (operator == "+") {
+        return num1 + num2;
+    } else if (operator == "-") {
+        return num1 - num2;
+    } else if (operator == "/") {
+        return num1 / num2;
+    } else if (operator == "*") {
+        return num1 * num2;
+    } else {
+        return "Invalid operator"
     }
+
+    // switch (operator) {
+    //     case "+":
+    //         return num1 + num2;
+    //     case "-":
+    //         return num1 - num2;
+    //     case "/":
+    //         return num1 / num2;
+    //     case "*":
+    //         return num1 * num2;
+    //     default:
+    //         return "Invalid operator"
+    // }
 }
 
 
